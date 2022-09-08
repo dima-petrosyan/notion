@@ -1,0 +1,36 @@
+
+.header {
+	height: 118px;
+	width: 100%;
+	background-color: rgb(230, 175, 109);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 40px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: rgb(35, 88, 151);
+}
+
+.logoText {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 2rem;
+	color: rgb(35, 88, 151);
+}
+
+@media(max-width: 744px) {
+	.logoText {
+		display: none;
+	}
+}
